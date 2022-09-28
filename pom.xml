@@ -58,7 +58,7 @@
         <liquibase-hibernate5.version>4.15.0</liquibase-hibernate5.version>
         <validation-api.version>2.0.1.Final</validation-api.version>
         <jaxb-runtime.version>4.0.0</jaxb-runtime.version>
-        <archunit-junit5.version>0.22.0</archunit-junit5.version>
+        <archunit-junit5.version>0.23.1</archunit-junit5.version>
         <mapstruct.version>1.5.2.Final</mapstruct.version>
         <!-- Plugin versions -->
         <maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
@@ -156,6 +156,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
         </dependency>
         <dependency>
             <groupId>javax.cache</groupId>
@@ -181,6 +182,7 @@
         <dependency>
             <groupId>org.hibernate.validator</groupId>
             <artifactId>hibernate-validator</artifactId>
+            <version>8.0.0.Final</version>
         </dependency>
         <dependency>
             <groupId>org.liquibase</groupId>
@@ -344,6 +346,11 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-messaging</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
         </dependency>
         <!-- jhipster-needle-maven-add-dependency -->
     </dependencies>
